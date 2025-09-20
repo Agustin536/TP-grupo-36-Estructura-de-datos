@@ -3,11 +3,7 @@ Clase Usuario
 """
 
 class Usuario:
-  '''
-  summary: vamos a hacer una clase usuario que se inicialice con sus atributos en None, que luego tenga métodos de set para poder ingresar sus datos
-  y sus respectivos get para poder obtenerlos (a excepción de la clave por obvias razones).
-  '''
-
+  
   #Constructor
   def __init__(self, nombre = None, correo = None):
     self.nombre = nombre
