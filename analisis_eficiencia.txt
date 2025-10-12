@@ -1,0 +1,24 @@
+Análisis de Eficiencia
+
+Operaciones principales:
+
+Agregar mensaje o subcarpeta: O(1)
+Se agrega al final de la lista correspondiente.
+
+Búsqueda recursiva de mensajes: O(n)
+Recorre todas las carpetas y subcarpetas hasta encontrar los mensajes que coinciden con el criterio.
+
+Mover mensaje entre carpetas: O(n)
+Se busca el mensaje en la estructura y se lo mueve a otra carpeta.
+
+Ventajas del enfoque recursivo:
+
+Facilita recorrer estructuras jerárquicas complejas.
+
+Permite extender fácilmente la estructura con nuevas subcarpetas.
+
+Hace que el código sea más limpio y modular.
+
+Desventajas:
+
+El uso excesivo de recursión puede aumentar el consumo de memoria si la estructura es muy profunda.
